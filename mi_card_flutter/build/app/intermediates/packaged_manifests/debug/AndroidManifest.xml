@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="31" />
 
     <!--
          The INTERNET permission is required for development. Specifically,
@@ -29,6 +29,7 @@
         <activity
             android:name="co.appbrewery.micard.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:exported="true"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
