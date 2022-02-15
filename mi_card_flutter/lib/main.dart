@@ -54,6 +54,7 @@ class MyApp extends StatelessWidget {
                   horizontal: 25.0,
                 ),
                 child: ListTile(
+                  dense: true,
                   leading: Icon(
                     Icons.phone,
                     color: Colors.black,
@@ -74,6 +75,7 @@ class MyApp extends StatelessWidget {
                   horizontal: 25.0,
                 ),
                 child: ListTile(
+                  dense: true,
                   leading: Icon(
                     Icons.email,
                     color: Colors.black,
